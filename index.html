@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GANPAT UNIVERSITY</title>
+    <style>
+      body {
+    background-color: black;
+}
+
+.page-a {
+    background-image: url("guni.jpeg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    /* Use vw and vh units */
+    box-shadow: 0px 0px 2000px black inset;
+    background-color: rgba(0, 0, 0, 0.5); /* Fix the rgba value */
+    border: 2px solid white;
+}
+
+.a {
+    position: relative;
+    top: 13.02vh; /* Adjusted value in vh units */
+    border-radius: 20px;
+    left: 51.54vw; /* Adjusted value in vw units */
+    background-color: #000000a5;
+    width: 41.24vw; /* Adjusted value in vw units */
+    height: 27.77vh; /* Adjusted value in vh units */
+    transition: all ease 2s;
+}
+
+.a:hover {
+    width: 46.39vw; /* Adjusted value in vw units */
+    height: 33.33vh; /* Adjusted value in vh units */
+    padding: 0px;
+    font-size: 2.78vh; /* Adjusted value in vh units */
+}
+
+.aa {
+    color: red;
+    font-size: 1vh; /* Adjusted value in vh units */
+    padding: 2.78vh 1.39vw 0px 2.22vw; /* Adjusted value in vh and vw units */
+    animation: openclose 5s ease-in-out infinite;
+}
+
+.ab {
+    color: white;
+    padding: 0 1.39vw 0px 2.22vw; /* Adjusted value in vw units */
+    font-size: 6.94vw; /* Adjusted value in vw units */
+}
+
+.ac {
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0.56vh 2.22vw 2.22vh 2.22vw; /* Adjusted value in vh and vw units */
+    color: white;
+}
+
+#ad {
+    position: relative;
+    left: 2.22vw; /* Adjusted value in vw units */
+    top: 0.56vh; /* Adjusted value in vh units */
+    margin: 0px;
+    padding: 1.11vh 2.22vw 1.11vh 2.22vw; /* Adjusted value in vh and vw units */
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 6.94vw; /* Adjusted value in vw units */
+    transition: all ease 1s;
+}
+
+#ad:hover {
+    padding: 2.22vh 3.33vw 2.22vh 3.33vw; /* Adjusted value in vh and vw units */
+    border-radius: 12px;
+}
+
+.header {
+    align-items: center;
+    background-color: #000000a6;
+    width: 100vw; /* Use vw unit */
+    height: 10.34vh; /* Adjusted value in vh units */
+}
+
+.logo {
+    display: inline;
+}
+
+#logo {
+    padding: 1.03vh 0 1.03vh 1.54vw; /* Adjusted value in vh and vw units */
+    width: 24.62vw; /* Adjusted value in vw units */
+    height: auto;
+}
+
+.nav {
+    display: inline;
+    position: relative;
+    left: 25.76vw; /* Adjusted value in vw units */
+    top: -6.54vh; /* Adjusted value in vh units */
+}
+
+#nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 2.78vh; /* Adjusted value in vh units */
+    font-size: 6.94vw; /* Adjusted value in vw units */
+}
+
+#nav-link:hover {
+    color: red;
+    font-size: 9.26vw; /* Adjusted value in vw units */
+    transition: 1s;
+}      
+       .page-b{
+           margin: 30px 0 30px 0;
+           background: linear-gradient(
+           to right,
+           #3e3e3e 0%,
+           #3e3e3e 50%,
+           black 50%,
+           black 100% 
+             );
+           width: 1940px;
+           height: 1080px;
+       }
+       
+       .col-a{
+           display: inline-flex;
+           max-width: 1940px;
+           
+           
+           
+       }
+       
+       .box{
+           background-color: #ff000a;
+           box-shadow: 0 0 30px black inset;
+           display: inline-block;
+           width: 400px;
+           height: 400px;
+           margin: 120px 120px 20px 120px; 
+           border-radius: 15px;
+           transition: all ease 1s;
+       }
+       
+       .box:hover{
+           width: 500px;
+           height: 500px;
+           box-shadow: 0 0 70px black inset;
+           
+           padding: 0px;
+           background-color: #40b6ff;
+           font-size: 30px;
+       }
+       
+       #Event{
+           padding: 30px 10px 0px 30px;
+           width: 120px;
+           height: auto;
+       }
+       
+       .title{
+           font-family: Helvetica;
+           padding: 0 0 0 20px;
+           color: white;
+       }
+       
+       .box-text{
+           font-size: 10px;
+           /* text-shadow: 0px 0px 3px white; */
+           padding: 0 0 0 20px;
+           color: black;
+           font-family: "Times New Roman", Times, serif;
+           
+       }
+       
+       .box-bottom{
+           padding: 30px;
+           display: flex;
+           flex-direction: row;
+           
+           
+       }
+       
+       #bottom-link{
+           display: inline;
+           padding: 10px;
+           border: 2px solid black;
+           border-radius: 5px;
+           text-decoration: none;
+           color: white;
+           font-family: Courier, monospace;
+           transition: all ease 1s;
+       }
+       
+       #bottom-link:hover{
+           background-color: white;
+           color: red;
+       }
+       
+       #Arrow{
+           
+           padding: 0px 0 0 30px;
+           
+           display: inline;
+           width: 50px;
+           height: auto;
+         
+       }
+       
+       .col-b{
+           display: inline-flex;
+           max-width: 1940px;
+           height: 600px;
+           
+           
+       }
+       
+       .b-a{
+           
+       }
+       
+       
+       .b-b{ 
+           
+           position: relative;
+           top: 150px;
+           left: 170px;
+           color: #ff4055;
+           display: inline;
+           font-size: 200px;
+       }
+       
+       .b-b-a{
+           position: relative;
+           top: 90px;
+           left: 90px;
+           color: white;
+           font-size: 50px;
+       }
+       
+       .right-box{
+           
+           
+           position: relative;
+           left: 300px;
+       }
+       
+       .right-box-up{
+           display: block;
+           
+           
+           
+           
+       }
+       
+       .right-box-down{
+           
+           display: block;
+           
+       }
+       
+       .right-box-a{
+           display: inline-block;
+           margin: 40px;
+           background-color: #3e3e3e;
+           box-shadow: 0 0 30px black;
+           width: 500px;
+           height: 200px;
+           transition: all ease 1s;
+       }
+       
+       .right-box-a:hover{
+           background-color: #000000;
+           color: white;
+           padding: 5px;
+           
+       }
+       
+       .right-box-b{
+           display: inline-block;
+           margin: 40px;
+           background-color: #3e3e3e;
+           box-shadow: 0 0 30px black;
+           width: 500px;
+           height: 200px;
+           transition: all ease 1s;
+       }
+       
+       .right-box-b:hover{
+           background-color: #000000;
+           color: white;
+           padding: 5px;
+           
+       }
+       
+       .right-box-c{
+           display: inline-block;
+           margin: 40px;
+           
+           
+           background-color: #3e3e3e;
+           box-shadow: 0 0 30px black;
+           width: 500px;
+           height: 200px;
+           transition: all ease 1s;
+       }
+       
+       .right-box-c:hover{
+           background-color: #000000;
+           color: white;
+           padding: 5px;
+   
+       }
+       
+       .right-box-d{
+           display: inline-block;
+           margin: 40px;
+           background-color: #3e3e3e;
+           box-shadow: 0 0 30px black;
+           width: 500px;
+           height: 200px;
+           transition: all ease 1s;
+       }
+       
+       .right-box-d:hover{
+           background-color: #000000;
+           color: white;
+           padding: 5px;
+          
+       }
+       
+       
+       .c-a{
+           text-align: center;
+           color: red;
+       }
+       
+       .c-b{
+           text-align: center;
+           color: white;
+       }
+       
+       
+       
+       .page-c{
+           background-color: black;
+           width: 1940px;
+           height: 1080px;
+           margin-top: 100px;
+           
+       }
+       
+       .page-c-header{
+           margin: 30px;
+           display: block;
+           
+       } 
+       
+       .page-c-header-a{
+           color: white;
+           display: inline-block;
+           padding: 20px;
+           
+       }
+       
+       .page-c-header-text{
+           font-family: "Franklin Ghotics Medium", Times, serif;
+           font-size: 40px;
+
+       }
+       
+       .page-c-header-b{
+          
+           
+           position: relative;
+           left: 1200px;
+           display: inline-block;
+           
+       }
+       
+       
+       
+       #page-c-header-link{
+           padding: 20px 20px 20px 20px;
+           font-size: 40px;
+           border: 3px solid white;
+           background-color: red;
+           color: white;
+           text-decoration: none;
+           margin: 0px;
+           transition: all ease 1.5s;
+       }
+       
+       #page-c-header-link:hover{
+           background-color: black;
+           color: red;
+      }
+       
+       .page-c-content{
+            
+            
+       }
+       
+       .page-c-box{
+           margin: 150px;
+           display: inline-block;
+           background-color: #3e3e3e;
+           color: white;
+           width: 600px;
+           height: 850px;
+           border: 2px solid white;
+           transition: all ease 1s;
+         
+       }
+       
+       .page-c-box:hover{
+           background: linear-gradient(
+           
+           #3e3e3e 30%,
+           red 80%  
+           );
+           color: black;
+           text-shadow: 1px 1px 20px white;
+           width: 650px;
+           height: 900px;
+       }
+       
+       .page-c-box:hover .page-c-box-text{
+           border-bottom: 10px solid black;
+           
+       }
+       
+       .page-c-box:hover p{
+           color: white;
+       }
+       
+       
+       .page-c-box-text{
+           padding: 0px 0 50px 50px;
+           font-size: 40px;
+           border-bottom: 10px solid red;
+       }
+       
+       .c-box{
+           width: 80%;
+           height: 50%;
+           overflow: hidden;
+           margin: 55px;
+
+       }
+       
+       #event{
+           transition: all ease 1s;
+           
+           
+           
+       }
+       
+       #event:hover{
+           transform: scale(1.5);
+           
+       }
+       
+       .page-c-content p{
+           padding: 20px 30px 50px 30px;
+           text-align: justify;
+       }
+       
+       .page-d{
+           background: linear-gradient(
+           
+           transparent 30%, 
+           red 99%
+           );
+           
+           
+           width: 1940px;
+           height: 1080px;
+           margin-top: 180px;
+           border: 5px solid red;
+           padding-top: 600px;
+       }
+       
+       .d-box{
+           background-color: black;
+           
+           margin: auto;
+           width: 1500px;
+           height: 400px;
+           border: 5px solid red;
+           
+       }
+       
+       .d-title{
+           
+           color: white;
+       }
+       
+       
+       
+        
+    </style>
+</head>
+<body>
+    <div class="page-a">
+        
+        <div class="header">
+               <div class="logo">
+                    <img id="logo" src="logo.png" alt="logo">
+               </div>
+               
+            <nav class="nav">
+              <a id="nav-link" href="">HOME</a>
+              <a id="nav-link" href="">PAYMENT</a>
+              <a id="nav-link" href="">AMPICS</a>
+              <a id="nav-link" href="">CONTACT</a>
+            </nav>
+               
+            
+            
+          
+          
+</div>
+        
+        <div class="a">
+            
+                
+        <h1 class="aa">WELLCOME Student,</h1>
+        <h1 class="ab">Ganpat University </h1>
+        <p class="ac">Ganpat University and Ganpat Vidyanagar, a collaborative initiative driven by philanthropic industrialists, technocrats, farmers, and businessmen, aim to uplift society through education. Established by the State Government in 2005 and approved by the UGC, the university has gained permanent membership in renowned academic and industry associations. It offers a wide range of industry-focused diploma, undergraduate, postgraduate, and research programs spanning fields like Engineering, Management, Pharmacy, Sciences, Architecture, Nursing, and more, aligning education with industry needs.
+        </p>
+        <a id="ad"href="">MORE</a>
+            
+        </div>
+</div>
+
+
+<div class="page-b">
+    
+<div class="col-a">
+    
+        
+        <div class="box">
+            <img id="Event" src="Why.png" alt="Event">
+        <h1 class="title" >Why Ganpat?</h1>
+        <p class="box-text"> "Ganpat University stands out for its excellent academic programs and vibrant campus life, making it a top choice for those seeking a well-rounded education and memorable college experience."
+        </p>
+        
+         <div class="box-bottom">
+         <a id="bottom-link" href="">KNOW MORE</a>
+         <img id="Arrow" src="arrow.png" alt="">
+         </div>
+          
+            
+        </div>
+        
+        
+        
+        <div class="box">
+            <img id="Event" src="College.png" alt="Event">
+        <h1 class="title">Campus Life</h1>
+        <p class="box-text"> "Ganpat University offers a dynamic campus life, fostering a diverse community of students engaged in academics and extracurricular activities."
+
+        </p>
+        
+         <div class="box-bottom">
+         <a id="bottom-link" href="">KNOW MORE</a>
+         <img id="Arrow" src="arrow.png" alt="">
+         </div>
+          
+            
+        </div>
+        
+        
+        
+        
+        <div class="box">
+            <img id="Event" src="Event.png" alt="Event">
+        <h1 class="title">Event And News</h1>
+        <p class="box-text"> "Ganpat University College's recent event was a hit, with lively cultural performances and enlightening workshops."
+        </p>
+        
+         <div class="box-bottom">
+         <a id="bottom-link" href="">KNOW MORE</a>
+         <img id="Arrow" src="arrow.png" alt="">
+         </div>
+         </div>
+        
+        
+</div>
+
+
+<div class="col-b">
+    
+    <div class="b-a">
+        <h1 class="b-b">20</h1>
+        <h1 class="b-b-a">Yaars Experience</h1>
+    </div>
+    
+    
+    <div class="right-box">
+    <div class="right-box-up">
+        
+        
+        <div class="right-box-a">
+            <h1 class="c-a">STUDENT</h1>
+            <h1 class="c-b">20,000+</h1>
+        </div>
+        
+        <div class="right-box-b">
+            <h1 class="c-a">COLLEGE</h1>
+            <h1 class="c-b">200+</h1>
+        </div>
+        
+        </div>
+        
+        
+        <div class="right-box-down">
+            
+        <div class="right-box-c">
+            <h1 class="c-a">COURSE</h1>
+            <h1 class="c-b">2000+</h1>
+        </div>
+        
+        <div class="right-box-d">
+            <h1 class="c-a">TEACHER</h1>
+            <h1 class="c-b">10,000+</h1>
+        </div>
+        
+        
+    </div>
+   </div>
+    
+</div>
+    
+</div>
+
+
+<div class="page-c">
+     <div class="page-c-header">
+         <div class="page-c-header-a"> 
+           <h1 class="page-c-header-text">UPCOMING EVENT</h1> 
+           </div>
+             
+             <div class="page-c-header-b">
+                 <div id="slide-b"></div>
+                 <a id="page-c-header-link" href="">MORE</a>
+             </div>
+     </div>
+     
+     <div class="page-c-content">
+         
+         <div class="page-c-box">
+            <div class="c-box"> <img id="event" src="Navratri.jpg" alt="Navratri"> </div>
+             <h1 class="page-c-box-text">Navratri 2023</h1>
+             <p>
+                 Navratri is a Hindu festival celebrating the triumph of good over evil, observed with nine nights of colorful dances, music, and devotion. During this time, devotees worship Goddess Durga and indulge in fasting and prayer.
+             </p>
+         </div>
+         
+         
+
+         
+         <div class="page-c-box">
+            <div class="c-box"> <img id="event" src="Diwali.jpg" alt="Navratri"> </div>
+             <h1 class="page-c-box-text">Diwali 2023</h1>
+             <p>
+                 Diwali, known as the Festival of Lights, is a Hindu celebration symbolizing the victory of light over darkness and good over evil. It's marked by dazzling lamps, colorful rangoli, and the exchange of sweets and gifts.
+             </p>
+            
+            
+            
+            </div>
+     </div>
+</div>
+
+
+
+
+<div class="page-d">
+    
+    
+    
+    <div class="d-box">
+        
+        <div class="d-title">
+            <h1> CONTACT US</h1>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
